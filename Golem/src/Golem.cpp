@@ -8,7 +8,9 @@
 
 #include <iostream>
 #include <SDL2/SDL.h>
+#include <memory>
 
+#include "Window/Window.h"
 using namespace std;
 
 //Screen dimension constants
@@ -32,7 +34,7 @@ SDL_Surface* gScreenSurface = NULL;
 
 //The image we will load and show on the screen
 SDL_Surface* gXOut = NULL;
-
+std::shared_ptr<Window> window = NULL;
 bool init()
 {
 	//Initialization flag
@@ -47,17 +49,7 @@ bool init()
 	else
 	{
 		//Create window
-		gWindow = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
-		if( gWindow == NULL )
-		{
-			printf( "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
-			success = false;
-		}
-		else
-		{
-			//Get window surface
-			gScreenSurface = SDL_GetWindowSurface( gWindow );
-		}
+		window = std::make_shared<Window>();
 	}
 
 	return success;
@@ -66,13 +58,7 @@ bool init()
 
 void close()
 {
-	//Deallocate surface
-	SDL_FreeSurface( gXOut );
-	gXOut = NULL;
 
-	//Destroy window
-	SDL_DestroyWindow( gWindow );
-	gWindow = NULL;
 
 	//Quit SDL subsystems
 	SDL_Quit();
@@ -95,6 +81,9 @@ int WinMain( int argc, char* args[] )
 		//Event handler
 		SDL_Event e;
 
+		window->init();
+		window->open();
+
 		//While application is running
 		while( !quit )
 		{
@@ -108,11 +97,8 @@ int WinMain( int argc, char* args[] )
 				}
 			}
 
-			//Apply the image
-			SDL_BlitSurface( gXOut, NULL, gScreenSurface, NULL );
 
-			//Update the surface
-			SDL_UpdateWindowSurface( gWindow );
+
 		}
 
 	}
