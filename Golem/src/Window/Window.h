@@ -57,6 +57,8 @@ public:
 	void minimise();
 	void restore();
 
+	void gameLoop();
+
 	virtual void awake();
 
 protected:
@@ -64,7 +66,7 @@ protected:
 
 private:
 	SDL_Window *m_sdlWindow = nullptr;
-	unsigned int m_windowId;
+	unsigned int m_windowId = 0;
 	SDL_GLContext m_context = nullptr; // Graphics Processor.
 
 	int m_interval = 1; // VSync.
@@ -72,6 +74,7 @@ private:
 	Uint32 m_flags = SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL;
 
 	bool m_cleaned = false;
+	bool m_closed = false;
 };
 
 #endif /* WINDOW_WINDOW_H_ */
