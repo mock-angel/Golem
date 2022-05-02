@@ -52,33 +52,9 @@ int WinMain(int argc, char *args[])
 	}
 	else
 	{
-
-		// Main loop flag
-		bool quit = false;
-
-		// Event handler
-		SDL_Event e;
-
 		window->init();
 		window->open();
-
-		// While application is running
-		while (!quit)
-		{
-			// Handle events on queue
-			while (SDL_PollEvent(&e) != 0)
-			{
-				// User requests quit
-				if (e.type == SDL_QUIT)
-				{
-					quit = true;
-				}
-			}
-
-			window->update();
-			window->render();
-		}
-		close();
+		window->gameLoop();
 	}
 
 	// Free resources and close SDL

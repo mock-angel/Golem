@@ -58,11 +58,14 @@ public:
 	void restore();
 
 	void gameLoop();
+	void processEvents(); // TODO: Move this function to a event handler?
+	void handleWindowEvent(SDL_Event &e);
 
 	virtual void awake();
 
 protected:
 	void clean();
+	SDL_Renderer *m_sdlRenderer = nullptr;
 
 private:
 	SDL_Window *m_sdlWindow = nullptr;
@@ -75,6 +78,11 @@ private:
 
 	bool m_cleaned = false;
 	bool m_closed = false;
+
+	bool m_shown = false;
+	bool m_minimized = false;
+	bool m_mouseFocus = false;
+	bool m_keyboardFocus = false;
 };
 
 #endif /* WINDOW_WINDOW_H_ */

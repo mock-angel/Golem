@@ -184,5 +184,140 @@ void Window::gameLoop()
 
 	while (!m_closed)
 	{
+		// Process Events
+		processEvents();
+
+		// update
+		update();
+
+		// render
+		render();
+	}
+}
+
+void Window::processEvents()
+{
+	SDL_Event e;
+
+	while (SDL_PollEvent(&e) != 0)
+	{
+
+		std::cout << "Window::processEvents() collected" << std::endl;
+		if (e.type == SDL_WINDOWEVENT)
+		{
+			handleWindowEvent(e);
+
+			// //FIXME: This should prolly not be here.
+			// if(e.window.event == SDL_WINDOWEVENT_SIZE_CHANGED){
+			//     ImGuiIO& io = ImGui::GetIO();
+			//     io.DisplaySize = ImVec2(e.window.data1, e.window.data1);
+			// }
+		}
+	}
+}
+
+void Window::handleWindowEvent(SDL_Event &e)
+{
+	// TODO: remove unnecessary window ID check.
+
+	// If an event was detected for this window
+	if (e.type == SDL_WINDOWEVENT && e.window.windowID == m_windowId) // && e.window.windowID == m_windowId)
+	// TODO: Avoid unnecessarity searching and calling for events from window.
+	{
+		// Caption update flag.
+		// bool updateCaption = false;
+
+		switch (e.window.event)
+		{
+		// Window appeared.
+		case SDL_WINDOWEVENT_SHOWN:
+			m_shown = true;
+			printf("W: Show\n");
+			break;
+
+		// Window disappeared.
+		case SDL_WINDOWEVENT_HIDDEN:
+			m_shown = false;
+			printf("W: Hide\n");
+			break;
+
+		// Get new dimensions and repaint.
+		case SDL_WINDOWEVENT_SIZE_CHANGED:
+
+			m_width = e.window.data1;
+			m_height = e.window.data2;
+
+			// SDL_RenderPresent( m_renderer );
+			// TODO: Rewrite above line for surface render...
+			glViewport(0, 0, m_width, m_height);
+
+			break;
+		// Repaint on expose.
+		case SDL_WINDOWEVENT_EXPOSED:
+			// SDL_RenderPresent(m_renderer);
+
+			printf("W: Exposed\n");
+			break;
+
+		// Mouse enter.
+		case SDL_WINDOWEVENT_ENTER:
+			m_mouseFocus = true;
+
+			printf("M: Enter\n");
+			break;
+
+		// Mouse exit.
+		case SDL_WINDOWEVENT_LEAVE:
+			m_mouseFocus = false;
+
+			printf("M: Leave\n");
+			break;
+
+		// Keyboard focus gained.
+		case SDL_WINDOWEVENT_FOCUS_GAINED:
+			m_keyboardFocus = true;
+
+			printf("K: focus Gained\n");
+			break;
+
+		// Keyboard focus lost.
+		case SDL_WINDOWEVENT_FOCUS_LOST:
+			m_keyboardFocus = false;
+
+			printf("W: focus Lost\n");
+			break;
+
+		// Window minimized.
+		case SDL_WINDOWEVENT_MINIMIZED:
+			m_minimized = true;
+
+			printf("W: MINIMIZED\n");
+			break;
+
+		// Window maxized.
+		case SDL_WINDOWEVENT_MAXIMIZED:
+			m_minimized = false;
+			printf("W: MAXIMIZED\n");
+			break;
+
+		// Window restored.
+		case SDL_WINDOWEVENT_RESTORED:
+			m_minimized = false;
+
+			printf("W: RESTORED\n");
+			break;
+
+		// Hide on close.
+		case SDL_WINDOWEVENT_CLOSE:
+			SDL_HideWindow(m_sdlWindow);
+
+			SDL_DestroyRenderer(m_sdlRenderer);
+			SDL_DestroyWindow(m_sdlWindow);
+
+			m_sdlWindow = NULL;
+			m_sdlRenderer = NULL;
+			m_closed = true;
+			break;
+		}
 	}
 }
