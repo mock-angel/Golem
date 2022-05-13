@@ -20,11 +20,15 @@ public:
 	static SDL_Window *sdl_window;
 	static ImGuiContext *imgui_context;
 
-	static void Init(SDL_Window *t_sdlwindow, SDL_GLContext context);
+	static void Init(SDL_Window *t_sdlwindow);
+	static void InitForGL(SDL_Window *t_sdlwindow, SDL_GLContext context);
+	static void InitForVulkan(SDL_Window *t_sdlwindow);
 	static void Cleanup();
 
 	static void NewFrame();
 	// static void RenderGUI();
 };
+
+void ShowGui();
 
 #endif /* GUI_GUI_H_ */

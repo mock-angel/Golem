@@ -3,14 +3,15 @@
 // Author      :
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Game Engine in  C++
 //============================================================================
 
 #include <iostream>
 //#include <SDL2/SDL.h>
 #include <memory>
-
+#include <SOIL/image_dxt.h>
 #include "Window/Window.h"
+#include <Editor/EditorWindow.h>
 using namespace std;
 
 // Frees media and shuts down SDL
@@ -32,7 +33,9 @@ bool init()
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 5);
 	SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
 
-	window = std::make_shared<Window>();
+	// window = Golem::EditorWindow();
+	// window.reset(new Golem::EditorWindow());
+	window = std::make_shared<Golem::EditorWindow>();
 	return success;
 }
 

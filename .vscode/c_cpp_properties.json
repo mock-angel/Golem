@@ -4,8 +4,13 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/src/imgui/backends",
-                "D:/GitHub/Golem_v1/Golem/include/imgui"
+                "D:/GitHub/Golem_v1/Golem/include/imgui",
+                "${workspaceFolder}/Golem/include",
+                "C:\\VulkanSDK\\1.3.211.0\\Include",
+                "${workspaceFolder}/Golem/include/SDL2",
+                "${workspaceFolder}/Golem/src/vendor/imgui",
+                "${workspaceFolder}/Golem/src/vendor",
+                "${workspaceFolder}/Golem/src/vendor/entt/src"
             ],
             "defines": [
                 "_DEBUG",
@@ -14,7 +19,7 @@
             ],
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30037/bin/Hostx64/x64/cl.exe",
-            "cStandard": "c17",
+            "cStandard": "gnu17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"
         }
