@@ -12,6 +12,12 @@
 #include <GL/glew.h>
 #include <GL/gl.h>
 #include <GL/glu.h>
+
+#include "../GUI/Gui.h"
+#include <imgui.h>
+#include <imgui/backends/imgui_impl_sdl.h>
+#include "imgui/backends/imgui_impl_opengl3.h"
+
 Window *Window::Instance = nullptr;
 
 void GLAPIENTRY
@@ -71,20 +77,25 @@ void Window::init()
 	SDL_GL_SetSwapInterval(m_interval);
 
 	glewInit();
+
+	Gui::Init(m_sdlWindow, m_context);
+
 	// During init, enable debug output
 	glEnable(GL_DEBUG_OUTPUT);
+	glDebugMessageCallback(MessageCallback, 0);
+
 	std::cout << "init" << std::endl;
 	//	glDebugMessageCallback(MessageCallback, 0);
 
 	show();
 
-	// Initialize Projection Matrix
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
+	// // Initialize Projection Matrix
+	// glMatrixMode(GL_PROJECTION);
+	// glLoadIdentity();
 
-	// Initialize Modelview Matrix
-	glMatrixMode(GL_MODELVIEW);
-	glLoadIdentity();
+	// // Initialize Modelview Matrix
+	// glMatrixMode(GL_MODELVIEW);
+	// glLoadIdentity();
 
 	glClearColor(0.f, 0.f, 0.f, 1.f);
 
@@ -120,10 +131,27 @@ void Window::render()
 	glViewport(0, 0, m_width, m_height);
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
+	bool show_demo_window = true;
+
+	// gui new frame
+	Gui::NewFrame();
+
 	{
 		glClearColor(.3, .1, .2, 1.0);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+		if (show_demo_window)
+			ImGui::ShowDemoWindow(&show_demo_window);
+
+		ImGui::Render();
+		ImGui::UpdatePlatformWindows();
+		ImGui::RenderPlatformWindowsDefault();
+
+		if (m_shown && !m_minimized)
+		{
+			// render_sequence();
+			ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+		}
 		static int prevWidth, prevHeight;
 
 		if (prevWidth != m_width || prevHeight != m_height)
@@ -133,13 +161,13 @@ void Window::render()
 			prevWidth = m_width;
 			prevHeight = m_height;
 		}
-		glColor3f(0, 0, 0);
-		glBegin(GL_LINES);
-		glVertex2f(-0.5f, -0.5f);
-		glVertex2f(0.5f, -0.5f);
-		glVertex2f(0.5f, 0.5f);
-		glVertex2f(-0.5f, 0.5f);
-		glEnd();
+		// glColor3f(0, 0, 0);
+		// glBegin(GL_LINES);
+		// glVertex2f(-0.5f, -0.5f);
+		// glVertex2f(0.5f, -0.5f);
+		// glVertex2f(0.5f, 0.5f);
+		// glVertex2f(-0.5f, 0.5f);
+		// glEnd();
 	}
 
 	SDL_GL_SwapWindow(m_sdlWindow);
@@ -201,18 +229,12 @@ void Window::processEvents()
 
 	while (SDL_PollEvent(&e) != 0)
 	{
-
-		std::cout << "Window::processEvents() collected" << std::endl;
 		if (e.type == SDL_WINDOWEVENT)
 		{
 			handleWindowEvent(e);
-
-			// //FIXME: This should prolly not be here.
-			// if(e.window.event == SDL_WINDOWEVENT_SIZE_CHANGED){
-			//     ImGuiIO& io = ImGui::GetIO();
-			//     io.DisplaySize = ImVec2(e.window.data1, e.window.data1);
-			// }
 		}
+
+		m_guiManager.handleEvent(e);
 	}
 }
 
@@ -232,13 +254,13 @@ void Window::handleWindowEvent(SDL_Event &e)
 		// Window appeared.
 		case SDL_WINDOWEVENT_SHOWN:
 			m_shown = true;
-			printf("W: Show\n");
+			std::cout << "W: Show" << std::endl;
 			break;
 
 		// Window disappeared.
 		case SDL_WINDOWEVENT_HIDDEN:
 			m_shown = false;
-			printf("W: Hide\n");
+			std::cout << ("W: Hide") << std::endl;
 			break;
 
 		// Get new dimensions and repaint.
@@ -246,6 +268,7 @@ void Window::handleWindowEvent(SDL_Event &e)
 
 			m_width = e.window.data1;
 			m_height = e.window.data2;
+			std::cout << ("W: Resize") << std::endl;
 
 			// SDL_RenderPresent( m_renderer );
 			// TODO: Rewrite above line for surface render...
@@ -256,55 +279,61 @@ void Window::handleWindowEvent(SDL_Event &e)
 		case SDL_WINDOWEVENT_EXPOSED:
 			// SDL_RenderPresent(m_renderer);
 
-			printf("W: Exposed\n");
+			std::cout << "W: Exposed" << std::endl;
 			break;
 
 		// Mouse enter.
 		case SDL_WINDOWEVENT_ENTER:
 			m_mouseFocus = true;
 
-			printf("M: Enter\n");
+			std::cout << "M: Enter"
+					  << std::endl;
 			break;
 
 		// Mouse exit.
 		case SDL_WINDOWEVENT_LEAVE:
 			m_mouseFocus = false;
 
-			printf("M: Leave\n");
+			std::cout << "M: Leave"
+					  << std::endl;
 			break;
 
 		// Keyboard focus gained.
 		case SDL_WINDOWEVENT_FOCUS_GAINED:
 			m_keyboardFocus = true;
 
-			printf("K: focus Gained\n");
+			std::cout << "K: focus Gained"
+					  << std::endl;
 			break;
 
 		// Keyboard focus lost.
 		case SDL_WINDOWEVENT_FOCUS_LOST:
 			m_keyboardFocus = false;
 
-			printf("W: focus Lost\n");
+			std::cout << "W: focus Lost"
+					  << std::endl;
 			break;
 
 		// Window minimized.
 		case SDL_WINDOWEVENT_MINIMIZED:
 			m_minimized = true;
 
-			printf("W: MINIMIZED\n");
+			std::cout << "W: MINIMIZED"
+					  << std::endl;
 			break;
 
 		// Window maxized.
 		case SDL_WINDOWEVENT_MAXIMIZED:
 			m_minimized = false;
-			printf("W: MAXIMIZED\n");
+			std::cout << "W: MAXIMIZED"
+					  << std::endl;
 			break;
 
 		// Window restored.
 		case SDL_WINDOWEVENT_RESTORED:
 			m_minimized = false;
 
-			printf("W: RESTORED\n");
+			std::cout << "W: RESTORED" << std::endl;
 			break;
 
 		// Hide on close.

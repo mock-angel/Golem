@@ -11,6 +11,8 @@
 #include <SDL2/SDL.h>
 #include <string>
 
+#include "../Gui/GuiManager.h"
+
 class Window
 {
 
@@ -83,6 +85,8 @@ private:
 	bool m_minimized = false;
 	bool m_mouseFocus = false;
 	bool m_keyboardFocus = false;
+
+	GuiManager m_guiManager;
 };
 
 #endif /* WINDOW_WINDOW_H_ */

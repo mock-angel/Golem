@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${workspaceFolder}/src/imgui/backends"
+                "${workspaceFolder}/src/imgui/backends",
+                "D:/GitHub/Golem_v1/Golem/include/imgui"
             ],
             "defines": [
                 "_DEBUG",
