@@ -11,7 +11,7 @@ struct TimerResult
     std::string Name;
     std::chrono::duration<double, std::micro> Start;
     std::chrono::duration<double, std::micro> End;
-    std::chrono::microseconds ElapsedTime;
+    std::chrono::duration<double, std::micro> ElapsedTime;
     std::thread::id ThreadID;
 
     // friend std::ostream &operator<<(std::ostream &os, const TimerData &timerData);
