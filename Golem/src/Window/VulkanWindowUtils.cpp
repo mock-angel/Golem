@@ -58,19 +58,6 @@ const std::vector<VkImageUsageFlags> getRequestedImageUsages()
 }
 
 //////////////////////////////////////////////////////////////////////////
-// Utilities
-//////////////////////////////////////////////////////////////////////////
-
-/**
- * Clamps value between min and max
- */
-template <typename T>
-T clamp(T value, T min, T max)
-{
-    //    return glm::clamp<T>(value, min, max);
-}
-
-//////////////////////////////////////////////////////////////////////////
 // Setup
 //////////////////////////////////////////////////////////////////////////
 /**
@@ -277,7 +264,7 @@ bool selectGPU(VkInstance instance, VkPhysicalDevice &outDevice, unsigned int &o
     vkEnumeratePhysicalDevices(instance, &physical_device_count, nullptr);
     if (physical_device_count == 0)
     {
-        std::cout << "No physical devices found\n";
+        std::cout << "No physical devices found" << std::endl;
         return false;
     }
 
@@ -303,7 +290,8 @@ bool selectGPU(VkInstance instance, VkPhysicalDevice &outDevice, unsigned int &o
         while (true)
         {
             std::cout << "select device: ";
-            std::cin >> selection_id;
+            selection_id = 0;
+            // std::cin >> selection_id;
             if (selection_id >= physical_device_count || selection_id < 0)
             {
                 std::cout << "invalid selection, expected a value between 0 and " << physical_device_count - 1 << "\n";

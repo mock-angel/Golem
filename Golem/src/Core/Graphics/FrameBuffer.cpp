@@ -14,7 +14,7 @@
 
 #include <Core/Graphics/FrameBuffer.h>
 #include <Core/Graphics/Texture/Texture.h>
-#include <Utils/Debug.h>
+#include <Core/Debug/Debug.h>
 
 FrameBuffer::FrameBuffer()
 {

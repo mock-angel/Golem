@@ -17,6 +17,8 @@
 #include <Vulkan/Vulkan.h> // remove this
 #include <SDL2/SDL_vulkan.h>
 
+#include <Core/Time/Timer.h>
+
 enum GRAPHICS_LIBRARY
 {
 	OPENGL,
@@ -127,6 +129,7 @@ private:
 	bool m_mouseFocus = false;
 	bool m_keyboardFocus = false;
 
+	// Tracker m_tracker;
 	// std::shared_ptr<GuiWindow> guiWindow;
 };
 

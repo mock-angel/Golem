@@ -16,6 +16,9 @@
 #include <GL/glu.h>
 
 #include "../Core/GUI/Gui.h"
+#include <Core/Time/Timer.h>
+#include <Core/Tracker/Tracker.h>
+
 #include <imgui.h>
 #include <imgui/backends/imgui_impl_sdl.h>
 #include "imgui/backends/imgui_impl_opengl3.h"
@@ -26,7 +29,7 @@
 #include <vector>
 
 Window *Window::Instance = nullptr;
-GRAPHICS_LIBRARY Window::GraphicsLibrary = VULKAN;
+GRAPHICS_LIBRARY Window::GraphicsLibrary = OPENGL;
 static bool g_SwapChainRebuild = false;
 
 void GLAPIENTRY
@@ -263,8 +266,6 @@ int Window::initVulkan()
 
 	SDL_SetWindowMinimumSize(m_sdlWindow, m_minWidth, m_minHeight);
 
-	hide();
-
 	SDL_Vulkan_LoadLibrary("C:\\Windows\\SysWOW64\\vulkan-1.dll");
 	// Get available vulkan extensions, necessary for interfacing with native window
 	// SDL takes care of this call and returns, next to the default VK_KHR_surface a platform specific extension
@@ -350,10 +351,14 @@ int Window::initVulkan()
 	VkPresentModeKHR present_modes[] = {VK_PRESENT_MODE_FIFO_KHR};
 #endif
 	wd->PresentMode = ImGui_ImplVulkanH_SelectPresentMode(gpu, wd->Surface, &present_modes[0], IM_ARRAYSIZE(present_modes));
+	wd->Swapchain = swap_chain;
+	std::cout << "gpu: " << gpu << " device: " << device << " graphics_queue_index: " << graphics_queue_index << std::endl;
+	;
 
 	// Create SwapChain, RenderPass, Framebuffer, etc.
 	// IM_ASSERT(g_MinImageCount >= 2);
 	ImGui_ImplVulkanH_CreateOrResizeWindow(m_vulkanInstance, gpu, device, wd, graphics_queue_index, nullptr, getWidth(), getHeight(), 1);
+	std::cout << "test1" << std::endl;
 
 	static VkDescriptorPool g_DescriptorPool = VK_NULL_HANDLE;
 	{
@@ -379,6 +384,7 @@ int Window::initVulkan()
 		err = vkCreateDescriptorPool(device, &pool_info, nullptr, &g_DescriptorPool);
 		check_vk_result(err);
 	}
+	std::cout << "test" << std::endl;
 
 	IMGUI_CHECKVERSION();
 	m_context = ImGui::CreateContext();
@@ -398,6 +404,7 @@ int Window::initVulkan()
 	init_info.MSAASamples = VK_SAMPLE_COUNT_1_BIT;
 	// init_info.Allocator = g_Allocator;
 	init_info.CheckVkResultFn = check_vk_result;
+	std::cout << "test" << std::endl;
 
 	std::cout << std::endl;
 	ImGui_ImplVulkan_Init(&init_info, wd->RenderPass);
@@ -430,6 +437,7 @@ int Window::initVulkan()
 		check_vk_result(err);
 		ImGui_ImplVulkan_DestroyFontUploadObjects();
 	}
+
 	g_Device = device;
 	g_Queue = graphics_queue;
 	// Gui::InitForVulkan(m_sdlWindow);
@@ -466,6 +474,8 @@ void Window::render()
 }
 void Window::renderGL()
 {
+	Golem::Timer timer("Window::renderGL");
+
 	SDL_GL_MakeCurrent(this->m_sdlWindow, this->m_context);
 	glViewport(0, 0, m_width, m_height);
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
@@ -480,10 +490,10 @@ void Window::renderGL()
 		glClearColor(.3, .1, .2, 1.0);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+		onGui();
+
 		if (m_show_demo_window)
 			ImGui::ShowDemoWindow(&m_show_demo_window);
-
-		onGui();
 
 		ImGui::Render();
 		ImGui::UpdatePlatformWindows();
@@ -519,6 +529,7 @@ void Window::renderGL()
 }
 void Window::renderVulkan()
 {
+	Golem::Timer timer("Window::renderVulkan");
 
 	// Gui::NewFrame();
 	ImGui_ImplVulkan_NewFrame();
@@ -626,6 +637,8 @@ void Window::gameLoop()
 
 	while (!m_closed)
 	{
+		// Tracker::GetInstance().NewFrame();
+
 		// Process Events
 		processEvents();
 

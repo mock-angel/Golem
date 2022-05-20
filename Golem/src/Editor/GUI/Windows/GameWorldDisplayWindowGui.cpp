@@ -21,7 +21,7 @@ GameWorldDisplayWindowGui::~GameWorldDisplayWindowGui()
 	// TODO Auto-generated destructor stub
 }
 
-void GameWorldDisplayWindowGui::onGui()
+void GameWorldDisplayWindowGui::OnGui()
 {
 	;
 }

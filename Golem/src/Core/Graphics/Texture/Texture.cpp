@@ -14,7 +14,7 @@
 #include <string>
 
 #include <SOIL/SOIL.h>
-#include <Utils/Debug.h>
+#include <Core/Debug/Debug.h>
 
 Texture::Texture()
 {

@@ -14,12 +14,15 @@ class GuiWindow
 {
 public:
 	GuiWindow();
+	GuiWindow(std::string title) { m_title = title; }
 	virtual ~GuiWindow();
 
 	virtual void updateGui();
-	virtual void onGui();
+	virtual void OnGui();
 	virtual void update();
 	virtual void render();
+
+	void SetTitle(std::string title) { m_title = title; }
 
 protected:
 	bool m_isOpen = true;

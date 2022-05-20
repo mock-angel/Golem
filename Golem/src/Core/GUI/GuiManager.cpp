@@ -11,7 +11,7 @@
 #include <GL/gl.h>
 #include <GL/glu.h>
 
-#include <Utils/Debug.h>
+#include <Core/Debug/Debug.h>
 
 GuiManager::GuiManager()
 {

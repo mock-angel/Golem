@@ -91,10 +91,20 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.212838026" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.239689259"/>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.441165615.832612952" name="/" resourcePath="src/vendor/rapidjson/example">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.1081946996" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug" unusedChildren="">
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.931128306" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.949174276"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1576139296" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base.285558160"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1628488952" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1464815182"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.338514135" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.81698324"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.477033596" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.682837719"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.578097643" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.239689259"/>
+						</toolChain>
+					</folderInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.441165615.1161286352" name="imgui_impl_allegro5.h" rcbsApplicability="disable" resourcePath="src/vendor/imgui/backends/imgui_impl_allegro5.h" toolsToInvoke=""/>
 					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.441165615.1423539789" name="imgui_impl_android.h" rcbsApplicability="disable" resourcePath="src/vendor/imgui/backends/imgui_impl_android.h" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry excluding="vendor/soil/src/original|vendor/entt/conan|vendor/entt/single_include|vendor/entt/test|vendor/imgui/backends/imgui_impl_glfw.cpp|vendor/imgui/backends/imgui_impl_dx9.cpp|vendor/imgui/backends/imgui_impl_dx12.cpp|vendor/imgui/backends/imgui_impl_dx11.cpp|vendor/imgui/backends/imgui_impl_dx10.cpp|vendor/imgui/backends/imgui_impl_android.h|vendor/imgui/backends/imgui_impl_allegro5.h|vendor/imgui/backends/imgui_impl_android.cpp|vendor/imgui/backends/imgui_impl_allegro5.cpp|vendor/imgui/examples|vendor/imgui/misc/fonts/binary_to_compressed_c.cpp|vendor/imgui/backends/imgui_impl_win32.cpp|vendor/imgui/backends/imgui_impl_glut.cpp|vendor/imgui/misc/freetype|vendor/imgui/backends/imgui_impl_wgpu.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="vendor/rapidjson/example|vendor/rapidjson/thirdparty|vendor/rapidjson/test|vendor/soil/src/original|vendor/entt/conan|vendor/entt/single_include|vendor/entt/test|vendor/imgui/backends/imgui_impl_glfw.cpp|vendor/imgui/backends/imgui_impl_dx9.cpp|vendor/imgui/backends/imgui_impl_dx12.cpp|vendor/imgui/backends/imgui_impl_dx11.cpp|vendor/imgui/backends/imgui_impl_dx10.cpp|vendor/imgui/backends/imgui_impl_android.h|vendor/imgui/backends/imgui_impl_allegro5.h|vendor/imgui/backends/imgui_impl_android.cpp|vendor/imgui/backends/imgui_impl_allegro5.cpp|vendor/imgui/examples|vendor/imgui/misc/fonts/binary_to_compressed_c.cpp|vendor/imgui/backends/imgui_impl_win32.cpp|vendor/imgui/backends/imgui_impl_glut.cpp|vendor/imgui/misc/freetype|vendor/imgui/backends/imgui_impl_wgpu.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -167,8 +177,18 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.80378213.1678956240" name="/" resourcePath="src/vendor/rapidjson/example">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.668567969" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release" unusedChildren="">
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.177345429" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.525621627"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1373258361" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base.158876713"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.194032237" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.512861159"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1229742435" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.1936349269"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.710245263" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1977328097"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1046800745" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.605147317"/>
+						</toolChain>
+					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="vendor/rapidjson/example|vendor/rapidjson/thirdparty" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

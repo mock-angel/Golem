@@ -23,14 +23,16 @@ GuiWindow::~GuiWindow()
 
 void GuiWindow::updateGui()
 {
+	if (!m_isOpen)
+		return;
 	if (ImGui::Begin(m_title.c_str(), &m_isOpen))
 	{
-		onGui();
+		OnGui();
 	}
 	else
 		m_isOpen = false;
 	ImGui::End();
 }
-void GuiWindow::onGui() {}
+void GuiWindow::OnGui() {}
 void GuiWindow::update() {}
 void GuiWindow::render() {}

@@ -18,7 +18,7 @@ public:
 	GameWorldDisplayWindowGui();
 	virtual ~GameWorldDisplayWindowGui();
 
-	void onGui() override;
+	void OnGui() override;
 	void update() override;
 	void render() override;
 
