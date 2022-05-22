@@ -2,5 +2,5 @@
 
 namespace Golem
 {
-
+    Profiler Profiler::Instance;
 } // namespace Golem

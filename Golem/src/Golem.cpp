@@ -12,12 +12,14 @@
 #include <SOIL/image_dxt.h>
 #include "Window/Window.h"
 #include <Editor/EditorWindow.h>
+#include <Core/Profiler/Profiler.h>
+
 using namespace std;
 
 // Frees media and shuts down SDL
 void close();
 
-std::shared_ptr<Window> window = NULL;
+std::shared_ptr<Golem::Window> window = NULL;
 bool init()
 {
 	// Initialization flag
@@ -55,9 +57,11 @@ int WinMain(int argc, char *args[])
 	}
 	else
 	{
+		Golem::Profiler::GetInstance().StartSession("Golem", "Golem.json");
 		window->init();
 		window->open();
 		window->gameLoop();
+		Golem::Profiler::GetInstance().EndSession();
 	}
 
 	// Free resources and close SDL

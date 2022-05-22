@@ -1,0 +1,464 @@
+{"otherData": {},"traceEvents":[{},{"cat":"function","dur":71.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749454873.500}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455101.400}
+,{"cat":"function","dur":19.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455135.300}
+,{"cat":"function","dur":3.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455166.700}
+,{"cat":"function","dur":3.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455183.600}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455199.000}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455210.700}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455223.300}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455237.300}
+,{"cat":"function","dur":4.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34749455249.800}
+,{"cat":"function","dur":7510.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749455263.600}
+,{"cat":"function","dur":64081.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749463400.900}
+,{"cat":"function","dur":548.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749527618.500}
+,{"cat":"function","dur":14368.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749528188.600}
+,{"cat":"function","dur":14246.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749542607.700}
+,{"cat":"function","dur":14223.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749556912.500}
+,{"cat":"function","dur":14261.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749571210.400}
+,{"cat":"function","dur":14294.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749585538.800}
+,{"cat":"function","dur":15263.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749599918.100}
+,{"cat":"function","dur":16461.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749615280.600}
+,{"cat":"function","dur":16544.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749631809.200}
+,{"cat":"function","dur":16598.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749648422.300}
+,{"cat":"function","dur":16896.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749665079.500}
+,{"cat":"function","dur":16281.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749682003.200}
+,{"cat":"function","dur":16594.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749698333.200}
+,{"cat":"function","dur":16703.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749714957.200}
+,{"cat":"function","dur":16625.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749731703.500}
+,{"cat":"function","dur":16584.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749748377.300}
+,{"cat":"function","dur":17059.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749765034.800}
+,{"cat":"function","dur":16186.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749782123.800}
+,{"cat":"function","dur":16652.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749798338.500}
+,{"cat":"function","dur":17073.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749815031.600}
+,{"cat":"function","dur":16424.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749832131.600}
+,{"cat":"function","dur":16678.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749848640.400}
+,{"cat":"function","dur":16581.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749865359.500}
+,{"cat":"function","dur":16557.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749881967.300}
+,{"cat":"function","dur":16744.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749898550.100}
+,{"cat":"function","dur":16668.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749915319.300}
+,{"cat":"function","dur":16569.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749932013.400}
+,{"cat":"function","dur":16823.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749948605.900}
+,{"cat":"function","dur":16539.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749965479.500}
+,{"cat":"function","dur":16233.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749982052.500}
+,{"cat":"function","dur":17058.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34749998329.600}
+,{"cat":"function","dur":16427.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750015418.000}
+,{"cat":"function","dur":16681.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750031868.100}
+,{"cat":"function","dur":16378.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750048576.300}
+,{"cat":"function","dur":16938.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750064996.400}
+,{"cat":"function","dur":16642.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750081962.500}
+,{"cat":"function","dur":16322.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750098628.000}
+,{"cat":"function","dur":16916.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750114985.700}
+,{"cat":"function","dur":16659.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750131927.700}
+,{"cat":"function","dur":16318.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750148606.900}
+,{"cat":"function","dur":16929.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750164952.300}
+,{"cat":"function","dur":16390.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750181911.500}
+,{"cat":"function","dur":16609.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750198350.500}
+,{"cat":"function","dur":16929.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750214992.900}
+,{"cat":"function","dur":16688.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750231946.900}
+,{"cat":"function","dur":16300.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750248657.100}
+,{"cat":"function","dur":16999.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750264978.400}
+,{"cat":"function","dur":16312.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750282016.100}
+,{"cat":"function","dur":16606.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750298357.100}
+,{"cat":"function","dur":16619.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750314988.100}
+,{"cat":"function","dur":16586.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750331637.000}
+,{"cat":"function","dur":16640.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750348250.400}
+,{"cat":"function","dur":16688.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750364922.400}
+,{"cat":"function","dur":16582.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750381662.600}
+,{"cat":"function","dur":16658.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750398275.500}
+,{"cat":"function","dur":16631.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750414970.000}
+,{"cat":"function","dur":16660.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750431633.800}
+,{"cat":"function","dur":16614.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750448335.100}
+,{"cat":"function","dur":16667.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750464982.100}
+,{"cat":"function","dur":16528.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750481703.300}
+,{"cat":"function","dur":16618.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750498268.400}
+,{"cat":"function","dur":16656.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750514914.700}
+,{"cat":"function","dur":16703.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750531601.800}
+,{"cat":"function","dur":16555.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750548354.700}
+,{"cat":"function","dur":16665.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750564936.900}
+,{"cat":"function","dur":16629.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750581646.500}
+,{"cat":"function","dur":16097.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750598807.900}
+,{"cat":"function","dur":3.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750615295.500}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750615311.000}
+,{"cat":"function","dur":16245.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750615319.400}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750631743.900}
+,{"cat":"function","dur":16477.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750631759.000}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750648432.900}
+,{"cat":"function","dur":16470.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750648459.400}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750665602.300}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750665628.100}
+,{"cat":"function","dur":15976.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750665639.600}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750681811.300}
+,{"cat":"function","dur":16514.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750681829.200}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750699152.600}
+,{"cat":"function","dur":15738.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750699180.000}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750715119.100}
+,{"cat":"function","dur":16442.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750715141.300}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750731772.700}
+,{"cat":"function","dur":16454.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750731789.600}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750748441.200}
+,{"cat":"function","dur":16430.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750748474.500}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750765095.000}
+,{"cat":"function","dur":16459.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750765121.100}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750781770.800}
+,{"cat":"function","dur":16478.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750781789.000}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750798470.800}
+,{"cat":"function","dur":16441.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750798487.800}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34750815152.100}
+,{"cat":"function","dur":16414.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750815171.100}
+,{"cat":"function","dur":16992.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750831602.500}
+,{"cat":"function","dur":16648.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750848612.000}
+,{"cat":"function","dur":16354.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750865280.500}
+,{"cat":"function","dur":16597.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750881682.700}
+,{"cat":"function","dur":16629.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750898308.600}
+,{"cat":"function","dur":16643.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750914966.300}
+,{"cat":"function","dur":16641.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750931635.500}
+,{"cat":"function","dur":16984.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750948303.900}
+,{"cat":"function","dur":16337.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750965306.000}
+,{"cat":"function","dur":16628.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750981691.500}
+,{"cat":"function","dur":16601.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34750998362.600}
+,{"cat":"function","dur":16603.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751015003.900}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751031862.000}
+,{"cat":"function","dur":16384.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751031885.400}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751048505.500}
+,{"cat":"function","dur":16461.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751048532.700}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751065287.200}
+,{"cat":"function","dur":16265.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751065311.400}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751081818.500}
+,{"cat":"function","dur":16446.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751081836.000}
+,{"cat":"function","dur":11.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751098501.600}
+,{"cat":"function","dur":16433.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751098528.400}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751115175.200}
+,{"cat":"function","dur":16368.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751115261.000}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751131842.800}
+,{"cat":"function","dur":16452.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751131868.800}
+,{"cat":"function","dur":13.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751148569.600}
+,{"cat":"function","dur":16419.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751148597.100}
+,{"cat":"function","dur":14.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751165319.900}
+,{"cat":"function","dur":16295.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751165359.300}
+,{"cat":"function","dur":13.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751181906.400}
+,{"cat":"function","dur":16360.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751181935.000}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751198502.800}
+,{"cat":"function","dur":16447.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751198524.500}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751215252.700}
+,{"cat":"function","dur":16280.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751215274.500}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751231757.900}
+,{"cat":"function","dur":17037.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751231783.800}
+,{"cat":"function","dur":16139.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751248845.400}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751265485.400}
+,{"cat":"function","dur":16034.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751265513.400}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751281756.400}
+,{"cat":"function","dur":16461.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751281772.900}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751298431.300}
+,{"cat":"function","dur":16512.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751298458.900}
+,{"cat":"function","dur":16550.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751315006.200}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751331774.300}
+,{"cat":"function","dur":16425.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751331800.500}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751348476.700}
+,{"cat":"function","dur":16412.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751348508.800}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751365131.500}
+,{"cat":"function","dur":16416.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751365158.900}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751381765.400}
+,{"cat":"function","dur":16523.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751381784.500}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751398557.400}
+,{"cat":"function","dur":16324.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751398579.400}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751415098.400}
+,{"cat":"function","dur":16795.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751415117.600}
+,{"cat":"function","dur":16361.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751431958.200}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751448617.600}
+,{"cat":"function","dur":16365.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751448634.100}
+,{"cat":"function","dur":13.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751465278.800}
+,{"cat":"function","dur":16313.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751465311.000}
+,{"cat":"function","dur":17037.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751481664.700}
+,{"cat":"function","dur":16261.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751498757.200}
+,{"cat":"function","dur":16658.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751515071.800}
+,{"cat":"function","dur":16573.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751531796.600}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751548674.600}
+,{"cat":"function","dur":16305.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751548702.200}
+,{"cat":"function","dur":16588.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751565059.500}
+,{"cat":"function","dur":16574.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751581701.100}
+,{"cat":"function","dur":16615.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751598325.800}
+,{"cat":"function","dur":16651.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751614967.200}
+,{"cat":"function","dur":16580.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751631647.800}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34751648305.900}
+,{"cat":"function","dur":16673.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751648325.000}
+,{"cat":"function","dur":16887.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751665029.600}
+,{"cat":"function","dur":16577.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751682026.900}
+,{"cat":"function","dur":16302.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751698622.900}
+,{"cat":"function","dur":16949.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751714947.700}
+,{"cat":"function","dur":16798.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751731916.700}
+,{"cat":"function","dur":16542.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751748734.500}
+,{"cat":"function","dur":16608.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751765305.800}
+,{"cat":"function","dur":16319.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751781935.800}
+,{"cat":"function","dur":16638.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751798272.400}
+,{"cat":"function","dur":16687.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751814931.800}
+,{"cat":"function","dur":16632.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751831644.800}
+,{"cat":"function","dur":16598.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751848305.600}
+,{"cat":"function","dur":17088.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751864936.500}
+,{"cat":"function","dur":16193.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751882051.700}
+,{"cat":"function","dur":16858.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751898267.400}
+,{"cat":"function","dur":16932.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751915145.400}
+,{"cat":"function","dur":16460.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751932096.700}
+,{"cat":"function","dur":16400.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751948576.800}
+,{"cat":"function","dur":16892.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751965006.800}
+,{"cat":"function","dur":16675.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751981919.700}
+,{"cat":"function","dur":16351.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34751998616.100}
+,{"cat":"function","dur":16584.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752015003.300}
+,{"cat":"function","dur":16985.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752031614.300}
+,{"cat":"function","dur":16664.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752048625.700}
+,{"cat":"function","dur":16573.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752065311.400}
+,{"cat":"function","dur":16337.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752081908.800}
+,{"cat":"function","dur":16698.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752098265.000}
+,{"cat":"function","dur":16940.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752114980.400}
+,{"cat":"function","dur":16329.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752131938.500}
+,{"cat":"function","dur":16627.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752148310.900}
+,{"cat":"function","dur":16976.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752164960.300}
+,{"cat":"function","dur":16714.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752181959.100}
+,{"cat":"function","dur":16221.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752198708.200}
+,{"cat":"function","dur":16676.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752214948.300}
+,{"cat":"function","dur":16694.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752231643.800}
+,{"cat":"function","dur":16859.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752248393.200}
+,{"cat":"function","dur":16627.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752265277.200}
+,{"cat":"function","dur":16282.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752281923.600}
+,{"cat":"function","dur":17057.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752298230.200}
+,{"cat":"function","dur":16654.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752315322.000}
+,{"cat":"function","dur":16555.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752332002.400}
+,{"cat":"function","dur":16686.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752348579.400}
+,{"cat":"function","dur":16287.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752365289.600}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752381667.000}
+,{"cat":"function","dur":16549.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752381689.900}
+,{"cat":"function","dur":16991.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752398273.800}
+,{"cat":"function","dur":16256.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752415297.200}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752431761.600}
+,{"cat":"function","dur":16422.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752431787.300}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752448396.100}
+,{"cat":"function","dur":16547.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752448421.900}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752465627.500}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752465651.900}
+,{"cat":"function","dur":15985.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752465661.100}
+,{"cat":"function","dur":11.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752481877.500}
+,{"cat":"function","dur":16411.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752481904.900}
+,{"cat":"function","dur":11.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752498575.100}
+,{"cat":"function","dur":16326.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752498599.200}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752515164.200}
+,{"cat":"function","dur":16383.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752515186.200}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752531769.800}
+,{"cat":"function","dur":16496.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752531788.400}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752548586.400}
+,{"cat":"function","dur":16301.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752548611.800}
+,{"cat":"function","dur":17075.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752564933.100}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752582330.400}
+,{"cat":"function","dur":16291.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752582356.100}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752598906.600}
+,{"cat":"function","dur":15968.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752598923.900}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752615072.800}
+,{"cat":"function","dur":16492.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752615089.000}
+,{"cat":"function","dur":16957.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752631605.600}
+,{"cat":"function","dur":16298.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752648585.200}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752665122.800}
+,{"cat":"function","dur":16477.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752665149.400}
+,{"cat":"function","dur":16622.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752681661.900}
+,{"cat":"function","dur":16581.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752698338.100}
+,{"cat":"function","dur":16636.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752714956.200}
+,{"cat":"function","dur":17074.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752731669.100}
+,{"cat":"function","dur":16157.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752748767.200}
+,{"cat":"function","dur":16840.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752764942.500}
+,{"cat":"function","dur":16461.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752781803.200}
+,{"cat":"function","dur":16630.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752798298.200}
+,{"cat":"function","dur":16624.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752814953.000}
+,{"cat":"function","dur":16667.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752831601.100}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752848653.400}
+,{"cat":"function","dur":16245.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752848671.200}
+,{"cat":"function","dur":16980.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752864936.200}
+,{"cat":"function","dur":16364.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752881935.300}
+,{"cat":"function","dur":16679.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752898329.600}
+,{"cat":"function","dur":16522.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752915063.200}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34752931661.800}
+,{"cat":"function","dur":16942.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752931679.500}
+,{"cat":"function","dur":16292.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752948656.900}
+,{"cat":"function","dur":16532.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752965086.000}
+,{"cat":"function","dur":16970.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752981650.200}
+,{"cat":"function","dur":16295.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34752998660.400}
+,{"cat":"function","dur":16891.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753014991.700}
+,{"cat":"function","dur":16334.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753031903.300}
+,{"cat":"function","dur":17261.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753048272.700}
+,{"cat":"function","dur":15998.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753065559.400}
+,{"cat":"function","dur":16634.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753081582.700}
+,{"cat":"function","dur":16647.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753098247.300}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753114975.400}
+,{"cat":"function","dur":16578.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753114990.600}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753131786.100}
+,{"cat":"function","dur":16399.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753131804.500}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753148410.900}
+,{"cat":"function","dur":16482.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753148434.600}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753165138.400}
+,{"cat":"function","dur":16409.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753165165.600}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753181785.000}
+,{"cat":"function","dur":16436.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753181803.200}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753198434.800}
+,{"cat":"function","dur":16460.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753198461.000}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753215126.400}
+,{"cat":"function","dur":16431.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753215146.000}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753231759.500}
+,{"cat":"function","dur":16430.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753231775.600}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753248420.800}
+,{"cat":"function","dur":16653.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753248446.300}
+,{"cat":"function","dur":16406.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753265167.100}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753281799.600}
+,{"cat":"function","dur":16405.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753281819.600}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753298422.600}
+,{"cat":"function","dur":16492.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753298439.100}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753315141.600}
+,{"cat":"function","dur":16383.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753315158.100}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753331750.500}
+,{"cat":"function","dur":16509.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753331776.100}
+,{"cat":"function","dur":16609.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753348311.800}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753365135.700}
+,{"cat":"function","dur":16398.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753365164.500}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753381764.500}
+,{"cat":"function","dur":16463.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753381784.000}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753398444.200}
+,{"cat":"function","dur":16469.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753398460.800}
+,{"cat":"function","dur":16683.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753414950.600}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753431886.700}
+,{"cat":"function","dur":16372.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753431906.500}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753448505.000}
+,{"cat":"function","dur":16498.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753448520.400}
+,{"cat":"function","dur":16525.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753465052.700}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753481819.200}
+,{"cat":"function","dur":16388.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753481841.400}
+,{"cat":"function","dur":16683.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753498249.400}
+,{"cat":"function","dur":16646.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753514957.400}
+,{"cat":"function","dur":16801.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753531632.100}
+,{"cat":"function","dur":16481.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753548473.100}
+,{"cat":"function","dur":16913.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753564975.800}
+,{"cat":"function","dur":16406.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753581908.200}
+,{"cat":"function","dur":16646.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753598343.700}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753615280.500}
+,{"cat":"function","dur":16654.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753615297.200}
+,{"cat":"function","dur":16282.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753631971.300}
+,{"cat":"function","dur":16669.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753648282.900}
+,{"cat":"function","dur":16693.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753664974.700}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753681810.000}
+,{"cat":"function","dur":16406.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753681835.400}
+,{"cat":"function","dur":16648.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753698261.300}
+,{"cat":"function","dur":16591.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753715015.300}
+,{"cat":"function","dur":16658.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753731624.200}
+,{"cat":"function","dur":16633.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753748310.800}
+,{"cat":"function","dur":16629.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753764964.300}
+,{"cat":"function","dur":16684.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753781615.400}
+,{"cat":"function","dur":16709.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753798326.200}
+,{"cat":"function","dur":16546.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753815058.400}
+,{"cat":"function","dur":16618.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753831628.800}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753848324.600}
+,{"cat":"function","dur":16639.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753848339.000}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753865311.700}
+,{"cat":"function","dur":16233.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753865341.600}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753881776.600}
+,{"cat":"function","dur":16423.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753881803.900}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753898422.100}
+,{"cat":"function","dur":16454.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753898448.000}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753915086.800}
+,{"cat":"function","dur":16479.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753915106.900}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753931788.400}
+,{"cat":"function","dur":16433.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753931805.600}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753948415.400}
+,{"cat":"function","dur":16499.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753948431.900}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753965126.200}
+,{"cat":"function","dur":16427.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753965145.200}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753981773.300}
+,{"cat":"function","dur":16436.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753981792.300}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34753998424.000}
+,{"cat":"function","dur":16502.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34753998442.800}
+,{"cat":"function","dur":10.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754015167.800}
+,{"cat":"function","dur":16404.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754015190.700}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754031774.000}
+,{"cat":"function","dur":16470.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754031789.100}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754048487.400}
+,{"cat":"function","dur":16431.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754048513.100}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754065740.400}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754065764.500}
+,{"cat":"function","dur":15893.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754065773.600}
+,{"cat":"function","dur":9.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754081880.900}
+,{"cat":"function","dur":16400.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754081900.400}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754098490.200}
+,{"cat":"function","dur":16381.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754098506.000}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754115060.300}
+,{"cat":"function","dur":16491.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754115075.100}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754131752.600}
+,{"cat":"function","dur":16449.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754131767.700}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754148394.200}
+,{"cat":"function","dur":16474.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754148409.700}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754165059.200}
+,{"cat":"function","dur":16526.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754165084.200}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754181826.700}
+,{"cat":"function","dur":16389.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754181851.900}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754198416.300}
+,{"cat":"function","dur":16465.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754198433.600}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754215073.900}
+,{"cat":"function","dur":16489.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754215088.600}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754232031.500}
+,{"cat":"function","dur":16185.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754232058.900}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754248433.100}
+,{"cat":"function","dur":16507.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754248457.700}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754265572.300}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754265597.100}
+,{"cat":"function","dur":16055.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754265608.200}
+,{"cat":"function","dur":14.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754281976.700}
+,{"cat":"function","dur":16246.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754282011.400}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754298439.500}
+,{"cat":"function","dur":16408.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754298456.200}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754315046.200}
+,{"cat":"function","dur":16511.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754315062.000}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754331762.800}
+,{"cat":"function","dur":16443.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754331783.500}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754348407.500}
+,{"cat":"function","dur":16479.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754348433.500}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754365095.500}
+,{"cat":"function","dur":16445.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754365120.700}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754381735.500}
+,{"cat":"function","dur":16507.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754381752.700}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754398471.000}
+,{"cat":"function","dur":16428.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754398489.800}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754415115.400}
+,{"cat":"function","dur":16427.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754415132.700}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754432052.500}
+,{"cat":"function","dur":16161.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754432079.200}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754448427.400}
+,{"cat":"function","dur":16519.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754448443.300}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754465538.600}
+,{"cat":"function","dur":2.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754465563.900}
+,{"cat":"function","dur":15988.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754465573.200}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754481732.600}
+,{"cat":"function","dur":16496.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754481747.300}
+,{"cat":"function","dur":6.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754498424.100}
+,{"cat":"function","dur":16480.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754498441.200}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754515125.300}
+,{"cat":"function","dur":16406.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754515144.900}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754531730.500}
+,{"cat":"function","dur":16460.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754531745.400}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754548386.900}
+,{"cat":"function","dur":16468.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754548410.000}
+,{"cat":"function","dur":7.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754565058.200}
+,{"cat":"function","dur":16459.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754565083.100}
+,{"cat":"function","dur":5.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754581722.300}
+,{"cat":"function","dur":16522.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754581737.800}
+,{"cat":"function","dur":8.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754598505.000}
+,{"cat":"function","dur":1.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754598530.000}
+,{"cat":"function","dur":16348.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754598539.000}
+,{"cat":"function","dur":16470.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754615085.200}
+,{"cat":"function","dur":16513.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754631761.500}
+,{"cat":"function","dur":16493.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754648474.900}
+,{"cat":"function","dur":15938.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754665693.100}
+,{"cat":"function","dur":16779.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754681856.200}
+,{"cat":"function","dur":16106.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754698870.400}
+,{"cat":"function","dur":16491.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754715195.700}
+,{"cat":"function","dur":16327.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754731968.200}
+,{"cat":"function","dur":16837.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754748320.400}
+,{"cat":"function","dur":16482.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754765180.800}
+,{"cat":"function","dur":16514.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754781707.200}
+,{"cat":"function","dur":17004.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754798246.800}
+,{"cat":"function","dur":16363.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754815284.800}
+,{"cat":"function","dur":16.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754940230.900}
+,{"cat":"function","dur":3.000,"name":"EditorWindow::onEvent","ph":"X","pid":0,"tid":1,"ts":34754940278.900}
+,{"cat":"function","dur":99.000,"name":"virtual void Golem::Window::renderGL()","ph":"X","pid":0,"tid":1,"ts":34754940289.300}
+]}
