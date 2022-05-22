@@ -46,7 +46,6 @@ namespace Golem
             std::chrono::duration<double, std::micro> start = std::chrono::duration<double, std::micro>{(m_startTime).time_since_epoch()};
             std::chrono::duration<double, std::micro> end = std::chrono::duration<double, std::micro>((m_endTime).time_since_epoch());
             m_duration = std::chrono::time_point_cast<std::chrono::microseconds>(m_endTime).time_since_epoch() - std::chrono::time_point_cast<std::chrono::microseconds>(m_startTime).time_since_epoch();
-            std::cout << "Timer: end: " << m_name << "Start, End, Duration: " << start.count() << ", " << end.count() << ", " << m_duration.count() << std::endl;
 
             // Tracker::GetInstance().AppendTimer({m_name, start, end, m_duration, std::this_thread::get_id()});
             Profiler::GetInstance().WriteProfile({m_name, start, end, m_duration, std::this_thread::get_id()});
